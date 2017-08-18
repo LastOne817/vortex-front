@@ -1,0 +1,25 @@
+.link polyline {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.node rect {
+  opacity: 0.8;
+}
+
+.node text, tspan {
+  cursor: default;
+  user-select: none;
+}
+
+.node text {
+  font-weight: bold;
+}
+
+.node tspan {
+  font-weight: normal;
+}
+
+#dag-wrapper {
+  overflow: hidden;
+}
