@@ -30,6 +30,8 @@ export class AppComponent implements OnInit, AfterViewInit {
   simulation: any;
   color: any;
 
+  selectedType: string;
+
   constructor(private dagService: DAGService) {
     this.dag = null;
     this.scale = 1.0;

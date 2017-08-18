@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DAGService } from './dag.service';
+import { DAGSelectorComponent } from './dag-selector.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DAGSelectorComponent
   ],
   imports: [
     BrowserModule
